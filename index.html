@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blackhole.io Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <h1>Blackhole.io (Prototype)</h1>
+    <p>Controls: WASD or Arrow Keys to move</p>
+    <p>Eat small objects to grow. Avoid bigger bots!</p>
+    <p>
+      Size: <span id="player-size">0</span> | 
+      Score: <span id="player-score">0</span>
+    </p>
+    <button id="restart-btn">Restart</button>
+  </div>
+
+  <canvas id="gameCanvas" width="900" height="600"></canvas>
+
+  <script src="game.js"></script>
+</body>
+</html>
